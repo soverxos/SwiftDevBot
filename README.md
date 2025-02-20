@@ -87,4 +87,4 @@ MIT License. See LICENSE file for details.
 
 ## Author
 
-Your Name
+SoverX - Шевченко Дмитрий
