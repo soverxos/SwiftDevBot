@@ -1,0 +1,15 @@
+# Настройки безопасности
+rate_limit: 30  # Максимальное количество сообщений
+rate_period: 60  # Период в секундах для подсчета сообщений
+
+# Настройки ролей
+default_role: "user"
+admin_users: [5526658109]  # ID администраторов
+
+# Настройки логирования
+log_retention_days: 30  # Срок хранения логов
+log_actions:
+  - message
+  - command
+  - login
+  - role_change

@@ -1,0 +1,46 @@
+bot:
+  token: "********************************************"
+  name: "SwiftDevBot"
+  description: "Swift Development Assistant Bot"
+  admin_ids: [************]
+  version: "1.0.0"
+
+database:
+  type: "sqlite"
+  path: "data/swiftdevbot.db"
+
+logging:
+  level: "INFO"
+  path: "logs"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+
+api:
+  enabled: true
+  host: "localhost"
+  port: 8080
+  secret_key: "your-secret-key"
+
+modules:
+  enabled:
+    - "system.database"
+    - "system.admin"
+    - "system.security"
+    - "system.scheduler"
+    - "system.logger"
+    - "system.api"
+    - "system.stats"
+    - "system.notifications"
+    - "system.backup"
+
+backup:
+  enabled: true
+  path: "backups"
+  schedule: "0 * * * *"  # Every hour
+  retention: 24
+
+notifications:
+  enabled: true
+  default_type: "info"
+  quiet_hours:
+    start: "23:00"
+    end: "07:00"

@@ -1,0 +1,70 @@
+# Python
+__pycache__/
+*.py[cod]
+*.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Project specific
+logs/*
+!logs/.gitkeep
+backups/*
+!backups/.gitkeep
+data/*
+!data/.gitkeep
+config.yml
+*.db
+*.log
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Data
+data/db/*
+data/backups/*
+data/temp/*
+data/cache/*
+
+# Но сохраняем директории
+!data/db/.gitkeep
+!data/backups/.gitkeep
+!data/temp/.gitkeep
+!data/cache/.gitkeep
+
+# Logs
+logs/*
+!logs/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+venv/

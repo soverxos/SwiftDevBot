@@ -1,0 +1,7 @@
+paths:
+  data: data
+  database: data/db
+  backups: data/backups
+  logs: logs
+  temp: data/temp
+  cache: data/cache
