@@ -1,6 +1,6 @@
 # SwiftDevBot
 
-SwiftDevBot is a Telegram bot designed to assist with Swift development tasks.
+SwiftDevBot is a Telegram bot.
 
 ## Features
 
